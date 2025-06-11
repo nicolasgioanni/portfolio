@@ -15,7 +15,7 @@ The project was developed with a focus on clean code organization, modern design
 - Google Fonts integration for typography
 - Supports both light and dark modes
 - Scroll-based animations and transitions
-- Hosted on a custom domain using Vercel that you may visit here: https://nicolasmgioanni.dev/
+- Hosted on a custom domain using Vercel
 
 ## Technologies Used
 
