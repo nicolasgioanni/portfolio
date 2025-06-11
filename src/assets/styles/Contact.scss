@@ -1,0 +1,96 @@
+.contact-wrapper {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3),
+                 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+
+  h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #0f39ae, #143fb6);
+    border-radius: 10px;
+    animation: pulse-underline 2s ease-in-out infinite;
+  }
+}
+
+@keyframes pulse-underline {
+  0%, 100% {
+    width: 60px;
+    opacity: 0.7;
+  }
+  50% {
+    width: 90px;
+    opacity: 1;
+  }
+}
+
+.light-mode .contact-wrapper h1 {
+  color: #001f3f;
+  text-shadow: none;
+}
+
+/* ─── Contact Form Styles ─── */
+
+.contact-wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+
+  button {
+    float: right;
+    background-color: white;
+    color: #050f0b;
+  }
+
+  button:hover {
+    background-color: #274fbc;
+    color: white;
+  }
+
+  fieldset {
+    background-color: white;
+  }
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}

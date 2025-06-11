@@ -1,0 +1,212 @@
+.education-container {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3),
+                 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+
+  h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #b7a57a, #85754d);
+    border-radius: 10px;
+    animation: pulse-underline 2s ease-in-out infinite;
+  }
+}
+
+@keyframes pulse-underline {
+  0%, 100% { width: 60px; opacity: 0.7; }
+  50%      { width: 90px; opacity: 1;   }
+}
+
+/* full-width, responsive grid */
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+/* rotating gold glow animation */
+@keyframes gold-glow {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.education-card {
+  background: #4b2e83;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 25px 30px;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+
+  /* rotating gold glow */
+  &::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: conic-gradient(from 0deg, #85754d, #b7a57a, #85754d);
+    border-radius: 16px;
+    filter: blur(12px);
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    animation: gold-glow 6s linear infinite;
+    z-index: 0;
+  }
+  &:hover::before {
+    opacity: 0.7;
+  }
+
+  /* centered gold husky, hidden until hover */
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 160px;
+    height: 160px;
+    transform: translate(-50%, -50%);
+    background: url("../images/huskylogo.png") no-repeat center/contain;
+    opacity: 0;
+    transition: opacity 1s ease;
+    z-index: 1;
+    pointer-events: none;
+  }
+  &:hover::after {
+    opacity: 0.85;
+  }
+}
+
+.edu-logo-wrapper {
+  margin-top: 0;
+  margin-right: 30px;
+  min-width: 80px;
+  z-index: 2;
+}
+
+.edu-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: white;
+  padding: 8px;
+  z-index: 2;
+}
+
+.edu-content {
+  z-index: 2;
+  width: 100%;
+
+  /* header row */
+  .edu-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+
+    h3 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: white;
+    }
+
+    .education-date-inline {
+      font-family: inherit;
+      color: #e0e0e0;
+      font-size: 1rem;
+    }
+  }
+
+  /* degree + focus + GPA */
+  .degree-gpa-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0.4rem 0;
+
+    .degree-focus {
+      font-size: 1rem;
+      strong { font-weight: bold; }
+      em    { font-style: italic; margin-left: 0.25em; }
+    }
+
+    .gpa {
+      margin: 0;
+      font-family: inherit;
+      color: #e0e0e0;
+      font-size: 1rem;
+    }
+  }
+
+  /* bullet list */
+  .edu-list {
+    margin: 0;
+    padding-left: 1rem;
+    list-style-position: outside;
+    font-size: 1rem;
+  }
+
+  .edu-list li {
+    margin: 0.5rem 0;
+    padding: 0;
+  }
+}
+
+/* responsive tweaks */
+@media (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+
+    .edu-logo-wrapper {
+      margin: 0 0 20px;
+    }
+
+    .edu-icon {
+      width: 70px;
+      height: 70px;
+    }
+
+    .edu-header-row,
+    .degree-gpa-row {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      > * {
+        margin: 0.2rem 0;
+      }
+    }
+  }
+}
+
+.light-mode .education-container h1 {
+  color: #001f3f;
+  text-shadow: none;
+}

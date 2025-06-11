@@ -1,0 +1,41 @@
+footer {
+  text-align: center;
+  padding: 50px 0;
+
+  svg {
+    width: 1.1em !important;
+    height: 1.1em !important;
+    margin-right: 10px;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  /* make only the source link bold + underlined */
+  a.github-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: inherit;            // inherit light-mode colour
+    transition: color .2s ease;
+
+    &:hover,
+    &:focus {
+      color: #274fbc;          // light-mode hover colour
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  footer {
+    color: #fff;               // all footer text white
+
+    a.github-link {
+      color: #fff;             // link stays white in dark
+      &:hover,
+      &:focus {
+        color: #ddd;           // or leave at #fff if you prefer
+      }
+    }
+  }
+}
