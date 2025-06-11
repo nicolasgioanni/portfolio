@@ -8,6 +8,8 @@ The project was developed with a focus on clean code organization, modern design
 
 **Live Demo**: https://nicolasmgioanni.dev/
 
+---
+
 ## Features
 
 - Mobile-first responsive layout for optimal viewing on all screen sizes
@@ -18,6 +20,8 @@ The project was developed with a focus on clean code organization, modern design
 - Supports both light and dark modes
 - Scroll-based animations and transitions
 - Hosted on a custom domain using Vercel
+
+---
 
 ## Technologies Used
 
@@ -42,6 +46,8 @@ The project was developed with a focus on clean code organization, modern design
 - **Git & GitHub** – Version control and code hosting
 - **ESLint** – Code quality and linting tool
 - **Prettier** – Code formatting for consistent styling
+
+---
 
 ## Installation
 
@@ -85,8 +91,12 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine. Che
 
 **NOTE**: The page will reload if you make edits, and you will see any lint errors in the console.
 
+---
+
 ## Deployment
 This portfolio is deployed using Vercel. Each push to the main branch on GitHub triggers automatic deployment. The production site is hosted at a custom domain.
+
+---
 
 ## License
 This project is licensed under the MIT License. see the LICENSE file for details.
