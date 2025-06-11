@@ -1,4 +1,4 @@
-# Nicolas Gioanni – Developer Portfolio
+# Nicolas Gioanni – Portfolio
 
 ## Description
 
