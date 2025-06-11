@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the source code for my personal portfolio website. The site is built using standard web technologies including HTML, CSS (with Tailwind CSS), and JavaScript. It is a centralized platform to present my professional background, highlight selected projects, and provide direct access to my resume, GitHub repositories, and other relevant links. The layout is responsive across all device sizes and includes interactive UI elements and structured project showcases.
+This repository contains the source code for my personal portfolio website. The site is built using standard web technologies including HTML, CSS (with Tailwind CSS), and JavaScript. It is a centralized platform to present my professional background, highlight selected projects, and provide direct access to my resume, GitHub repositories, and other relevant links. The layout is responsive across all device sizes.
 
 The project was developed with a focus on clean code organization, modern design principles, and accessibility standards. It is deployed via Vercel for continuous integration and delivery, using GitHub as the version control system.
 
