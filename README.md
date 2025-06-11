@@ -49,6 +49,7 @@ To run this project locally, follow these steps:
 #### Prerequisites
 
 Make sure you have [Node.js](https://nodejs.org/) installed on your machine. Check your installation by running:
+
     ```bash
     node -v
     ```
