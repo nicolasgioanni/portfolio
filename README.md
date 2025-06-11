@@ -23,7 +23,6 @@ The project was developed with a focus on clean code organization, modern design
 
 - **React** – Core JavaScript library for building user interfaces
 - **Vite** – Fast build tool and development server for modern web apps
-- **React Router (if used)** – For SPA navigation (if implemented in future)
 
 #### Styling & UI
 
@@ -50,28 +49,32 @@ To run this project locally, follow these steps:
 
 Make sure you have [Node.js](https://nodejs.org/) installed on your machine. Check your installation by running:
 
-    ```bash
-    node -v
-    ```
+
+        node -v
+
 
 #### Setup Instructions
 
 1. Clone the repository:
-```bash
-git clone https://github.com/nicolasgioanni/portfolio.git
- ```
+
+    ```bash
+    git clone https://github.com/nicolasgioanni/portfolio.git
+    ```
 
 2. Navigate to the project directory:
-```bash
-cd portfolio
- ```
+
+    ```bash
+    cd portfolio
+    ```
 
 3. In the project directory, install dependencies:
+
     ```bash
     npm install
     ```
 
 4. Start the development server:
+
     ```bash
     npm start
     ```
