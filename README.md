@@ -8,7 +8,7 @@ The project was developed with a focus on clean code organization, modern design
 
 **Live Demo**: https://nicolasmgioanni.dev/
 
-## Features 
+### Features 
 
 - Mobile-first responsive layout for optimal viewing on all screen sizes
 - Project showcase with links to live demos and source code
