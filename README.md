@@ -9,7 +9,7 @@ The project was developed with a focus on clean code organization, modern design
 **Live Demo**: https://nicolasmgioanni.dev/
 
 ## Features
----
+
 - Mobile-first responsive layout for optimal viewing on all screen sizes
 - Project showcase with links to live demos and source code
 - Integrated social and contact links
@@ -19,7 +19,7 @@ The project was developed with a focus on clean code organization, modern design
 - Scroll-based animations and transitions
 - Hosted on a custom domain using Vercel
 
----
+
 
 ## Technologies Used
 
@@ -45,7 +45,7 @@ The project was developed with a focus on clean code organization, modern design
 - **ESLint** – Code quality and linting tool
 - **Prettier** – Code formatting for consistent styling
 
----
+
 
 ## Installation
 
