@@ -7,7 +7,7 @@ This repository contains the source code for my personal portfolio website. The 
 The project was developed with a focus on clean code organization, modern design principles, and accessibility standards. It is deployed via Vercel for continuous integration and delivery, using GitHub as the version control system.
 
 **Live Demo**: https://nicolasmgioanni.dev/
-------------------------
+---------------------
 ## Features
 
 - Mobile-first responsive layout for optimal viewing on all screen sizes
