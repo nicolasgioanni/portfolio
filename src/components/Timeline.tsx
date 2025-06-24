@@ -46,7 +46,7 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Jan 2025 – Present"
+            date="January 2025 – June 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={
               <img
@@ -73,7 +73,7 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Sep 2024 – Present"
+            date="September 2024 – June 2025"
             iconStyle={{ background: '#ffffff', color: 'rgb(39, 40, 34)' }}
             icon={
               <img
@@ -100,7 +100,7 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Sep 2024 – Dec 2024"
+            date="September 2024 – December 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={
               <img
@@ -127,7 +127,7 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Mar 2024 – Aug 2024"
+            date="March 2024 – August 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={
               <img
