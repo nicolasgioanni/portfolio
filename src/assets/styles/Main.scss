@@ -2,6 +2,19 @@
     background-color: #001451;
 }
 
+.dark-mode .about-section .content p {
+  /* switch the vertical bar to white in dark mode */
+  border-left: 8px solid #ffffff;
+}
+
+.dark-mode .about-section .image-wrapper img {
+  filter: brightness(0.8);
+}
+
+.light-mode .about-section .image-wrapper img {
+  filter: brightness(0.9);
+}
+
 .about-section {
     display: flex;
     gap: 30px;
@@ -73,6 +86,7 @@
     img {
         width: 150px;
         border-radius: 50%;
+        border: 2px solid white;
     }
 }
 
@@ -172,3 +186,4 @@
         }
     }
 }
+

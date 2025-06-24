@@ -30,7 +30,7 @@ const Education = () => {
                 <strong>B.S. in Computer Science &amp; Software Engineering</strong>,{" "}
                 <em>Concentration in Information Assurance &amp; Cybersecurity</em>
               </span>
-              <span className="gpa"><strong>GPA:</strong> 3.74 / 4.0</span>
+              <span className="gpa"><strong>GPA:</strong> 3.75 / 4.0</span>
             </div>
 
             {/* now using bullet points */}
