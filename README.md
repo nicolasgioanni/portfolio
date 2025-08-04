@@ -94,7 +94,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine. Che
 ## Deployment
 This portfolio is deployed using Vercel. Each push to the main branch on GitHub triggers automatic deployment. The production site is hosted at a custom domain.
 
-
+-
 
 ## License
 This project is licensed under the MIT License. see the LICENSE file for details.
